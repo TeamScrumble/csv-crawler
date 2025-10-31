@@ -1,4 +1,4 @@
-package cvs.clients
+package cvs.clients.crawler
 
 import org.openqa.selenium.By
 import org.openqa.selenium.JavascriptExecutor
@@ -26,7 +26,7 @@ class SevenEleven : Cvs() {
 
         while (true) {
             try {
-                Thread.sleep(cvs.clients.SLEEP_SHORT_MS)
+                Thread.sleep(cvs.clients.crawler.SLEEP_SHORT_MS)
                 val moreButton = WebDriverWait(driver, Duration.ofSeconds(3))
                     .until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(SELECTOR_MORE_BUTTON)))
 

@@ -1,11 +1,10 @@
-package cvs.clients
+package cvs.clients.crawler
 
 import org.openqa.selenium.By
 import org.openqa.selenium.JavascriptExecutor
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.chrome.ChromeOptions
-import org.springframework.stereotype.Component
 
 // ===== 상수 설정 =====
 private const val BASE_URL = "https://emart24.co.kr/goods/event"

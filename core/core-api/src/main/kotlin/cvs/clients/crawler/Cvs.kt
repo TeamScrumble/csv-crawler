@@ -1,4 +1,4 @@
-package cvs.clients
+package cvs.clients.crawler
 
 import org.openqa.selenium.By
 import org.openqa.selenium.JavascriptExecutor
