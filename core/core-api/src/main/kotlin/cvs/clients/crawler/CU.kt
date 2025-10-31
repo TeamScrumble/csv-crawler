@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions
 import org.openqa.selenium.support.ui.WebDriverWait
 import java.time.Duration
 
-class CU : Cvs() {
+class CU : CVS() {
     // ===== 상품 수집 =====
     override fun findProductList(driver: WebDriver): Boolean {
         waitForElement(driver, SELECTOR_PRODUCT_ITEM)

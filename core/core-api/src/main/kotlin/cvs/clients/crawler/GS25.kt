@@ -18,7 +18,7 @@ private const val SELECTOR_NEXT2 = ".paging .next2"
 private const val SELECTOR_TAB_TOTAL = "#TOTAL"
 private const val SLEEP_INTERVAL_MS = 500L
 
-class GS25 : Cvs() {
+class GS25 : CVS() {
 
     private fun moveToPage(driver: WebDriver, pageNum: Int) {
         val script = "goodsPageController.movePage($pageNum);"

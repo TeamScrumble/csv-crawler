@@ -14,7 +14,7 @@ private const val SELECTOR_DOUBLE_NEXT = ".pageNationWrap .doubleNext"
 private const val SELECTOR_NEXT_BTN = ".nextButtons .next"
 private const val SELECTOR_PAGE_FOCUS = ".pageNationWrap .pIndex.focus span"
 
-class Emart24 : Cvs() {
+class Emart24 : CVS() {
     private val EVENT_MAPPING = mapOf(
         "onepl" to "1+1",
         "twopl" to "2+1",

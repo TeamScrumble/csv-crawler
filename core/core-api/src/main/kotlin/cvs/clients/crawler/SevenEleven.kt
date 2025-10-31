@@ -19,7 +19,7 @@ private const val WAIT_TIMEOUT_SEC = 5L
 private const val SLEEP_SHORT_MS = 700L
 private const val SLEEP_LONG_MS = 1_000L
 
-class SevenEleven : Cvs() {
+class SevenEleven : CVS() {
     // ===== 더보기 버튼 처리 =====
     private fun clickAllPages(driver: WebDriver) {
         var pageCount = 0

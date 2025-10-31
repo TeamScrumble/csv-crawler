@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component
 import java.time.Duration
 
 @Component
-abstract class Cvs {
+abstract class CVS {
     companion object {
         const val WAIT_TIMEOUT_SEC = 5L
         const val SLEEP_SHORT_MS = 800L
